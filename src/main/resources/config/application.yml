@@ -25,8 +25,6 @@ spring:
     thymeleaf:
         mode: XHTML
 
-
-
 server:
     port: 8761
 
@@ -44,7 +42,6 @@ zuul:
 management:
     security:
         roles: ADMIN
-        enabled: false
     context-path: /management
     health:
         mail:
